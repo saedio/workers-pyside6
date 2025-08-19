@@ -1,7 +1,6 @@
 import sys
 import time
 
-# Verifica se o PySide6 está instalado
 try:
     from PySide6.QtCore import QObject, QThread, Signal
     from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel
